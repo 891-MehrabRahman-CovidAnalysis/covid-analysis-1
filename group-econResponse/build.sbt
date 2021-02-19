@@ -95,8 +95,6 @@ lazy val dependencies =
     val mrPowers = "com.github.mrpowers" %% "spark-fast-tests" % "0.21.3" % "test"
     val logCore = "org.apache.logging.log4j" % "log4j-core" % "2.13.0" % Runtime
     val logScala = "org.apache.logging.log4j" %% "log4j-api-scala" % "12.0"
-    val breezeViz = "org.scalanlp" %% "breeze-viz" % "1.1"
-    val breeze = "org.scalanlp" %% "breeze" % "1.1"
   }
 
 //Settings

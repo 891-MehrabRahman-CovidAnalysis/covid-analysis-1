@@ -30,6 +30,7 @@ object CountryBorders {
     //Spark Setup
     val spark = SparkSession
       .builder()
+      .master("local[*]")
       .getOrCreate()
     import spark.implicits._
 

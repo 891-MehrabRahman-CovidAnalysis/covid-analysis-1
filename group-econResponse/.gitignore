@@ -344,3 +344,11 @@ $RECYCLE.BIN/
 *regionDict
 *countries_general_stats.tsv
 *owid-covid-data.csv
+
+# Result files.
+group-econResponse/CountryBorders/src/main/resources/datawarehouse/border_discrepancies*
+group-econResponse/CountryBorders/src/main/resources/datawarehouse/highest_land_infect_rates*
+group-econResponse/CovidResponse/src/main/resources/datawarehouse/new_cases_daily*
+group-econResponse/CovidResponse/src/main/resources/datawarehouse/new_regional*
+group-econResponse/CovidResponse/src/main/resources/datawarehouse/regional*
+group-econResponse/CovidResponse/src/main/resources/datawarehouse/total*

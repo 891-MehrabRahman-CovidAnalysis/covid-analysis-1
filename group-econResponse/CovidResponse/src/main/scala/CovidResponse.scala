@@ -48,6 +48,7 @@ object CovidResponse {
     //Spark setup.
     val spark = SparkSession
       .builder()
+      .master("local[*]")
       .getOrCreate()
     import spark.implicits._
 
@@ -130,8 +131,6 @@ object CovidResponse {
       System.exit(0)
     })
     deltaGDP.show()
-
-//    // TODO: Write file to some output folder.
   }
 
 }
